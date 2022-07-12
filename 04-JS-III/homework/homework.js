@@ -242,6 +242,20 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  const A =[]
+  if (numero<10){
+    console.log('Se interrumpió la ejecución')
+  }
+  else{
+    let i =1;
+    var n=2;
+    while(i<10){
+      A.push(numero+n)
+      i+=1
+      n+=2
+    }
+  console.log(A)
+  }
 }
 
 
@@ -252,6 +266,15 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  const A =[]
+  let i=1;
+  var n=2;
+  while(i<10){
+      A.push(numero+n)
+    i+=1
+    n+=2
+  }
+  console.log(A)
 }
 
 
